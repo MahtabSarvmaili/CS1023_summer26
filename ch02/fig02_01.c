@@ -3,9 +3,14 @@
 #include <stdio.h>
 
 // function main begins program execution 
-int main( void )
-{
+int main( void ){
+   
+   printf( "Welcome to C! \t" );
    printf( "Welcome to C!\n" );
+      printf( "Welcome to C!\n" );
+
+
+   return 0;
 } // end function main 
 
 
