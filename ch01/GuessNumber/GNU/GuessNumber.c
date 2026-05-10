@@ -8,6 +8,9 @@ int isCorrect(int, int); // function prototype
 
 int main(void)
 {
+   // Modified by Arjan Kumar Banik for CS1023 Lab 1
+   printf("Modified by Arjan Kumar Banik for CS1023 Lab 1.\n");
+
    // srand( time( 0 ) ); // seed random number generator
    guessGame();
 } // end main
