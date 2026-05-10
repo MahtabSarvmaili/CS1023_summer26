@@ -18,6 +18,8 @@ int main( void )
    sum = integer1 + integer2; // assign total to sum
 
    printf( "Sum is %d\n", sum ); // print sum
+   printf( "You entered %d and %d\n", integer1, integer2 );
+   printf( "Difference is %d\n", integer1 - integer2 );
 } // end function main
 
 

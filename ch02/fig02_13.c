@@ -37,6 +37,32 @@ int main( void )
    if ( num1 >= num2 ) {
       printf( "%d is greater than or equal to %d\n", num1, num2 );
    } // end if
+
+   if ( num2 != 0 ) {
+      if ( num1 % num2 == 0 ) {
+         printf( "%d is evenly divisible by %d\n", num1, num2 );
+      } // end if
+
+      if ( num1 % num2 != 0 ) {
+         printf( "%d is not evenly divisible by %d\n", num1, num2 );
+      } // end if
+   } // end if
+
+   if ( num2 == 0 ) {
+      printf( "Cannot check divisibility because the second number is zero.\n" );
+   } // end if
+
+   if ( num1 > 10 ) {
+      printf( "%d is greater than 10\n", num1 );
+   } // end if
+
+   if ( num1 < 10 ) {
+      printf( "%d is less than 10\n", num1 );
+   } // end if
+
+   if ( num1 == 10 ) {
+      printf( "%d is equal to 10\n", num1 );
+   } // end if
 } // end function main
 
 
