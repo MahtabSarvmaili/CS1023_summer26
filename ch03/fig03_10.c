@@ -12,7 +12,11 @@ int main( void )
    int result; // one exam result 
 
    // process 10 students using counter-controlled loop 
-   while ( student <= 10 ) {
+   for (size_t i = 0; i < 10; ++i) {
+      // prompt user for input and obtain value from user 
+      printf( "%s", "Enter result ( 1=pass,2=fail ): " );
+      scanf( "%d", &result );
+      
 
       // prompt user for input and obtain value from user 
       printf( "%s", "Enter result ( 1=pass,2=fail ): " );
